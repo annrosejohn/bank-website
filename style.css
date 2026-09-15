@@ -1,0 +1,82 @@
+ *{
+         font-family: "Playfair Display", serif;
+         padding: 0;
+         margin: 0px;
+    }
+/* From Uiverse.io by alexmaracinaru */ 
+.card {
+ width: 190px;
+ height: 254px;
+ background-color: white;
+
+ border-radius: 15px;
+
+}
+
+
+
+.card span {
+ font-weight: 600;
+ color: rgb(250, 250, 250);
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
+}
+
+.card .job {
+ font-weight: 400;
+ color: black;
+ display: block;
+ text-align: center;
+ padding-top: 3px;
+ font-size: 12px;
+}
+
+.card .img {
+ width: 70px;
+ height: 80px;
+ background: #b4e3c3b0;
+ border-radius: 15px;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #065e47;
+ color: white;
+ font-weight: 600;
+}
+
+.card button:hover {
+ background: #8bf8a2;
+}
+
+.card{
+
+ color: rgb(0, 0, 0);
+ 
+ text-align: center;
+
+}
+.jack img{
+    width: 50px;
+}
+/* Overrides only the icon backgrounds on the FARM SECTOR side */
+.bg-warning .card .img {
+  background-color: #f7df94 !important; /* Adjust hex to your preferred yellow */
+}
+.bg-warning .card .img i {
+  color: #856404 !important;
+}
+
+/* Changes the circle button color inside the yellow section */
+.bg-warning .card button {
+  background-color: #856404 !important;
+}
